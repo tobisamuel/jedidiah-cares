@@ -1,0 +1,18 @@
+/* Contact */
+.donate-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--misc);
+  min-height: 375px;
+}
+
+.contact {
+  color: var(--secondary);
+  min-height: 86vh;
+}
+
+.contact-text h2 {
+  font-size: em;
+}

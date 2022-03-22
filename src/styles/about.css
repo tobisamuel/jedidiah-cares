@@ -1,0 +1,143 @@
+/* About Us Section */
+
+.about-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  color: var(--misc);
+  min-height: 375px;
+}
+
+.about-us {
+  margin-top: 2.5em;
+  padding-bottom: 20px;
+}
+
+.about-text {
+  /* color: var(--secondary); */
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.about-text h2 {
+  /* padding-bottom: 0.2em; */
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+/* .about-text p {
+  width: 80%;
+} */
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.about-img img {
+  height: 300px;
+}
+
+.vision {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.vision .text {
+  margin-top: 2em;
+  /* padding-left: 2em; */
+}
+
+.vision .text h2 {
+  font-size: 1.7em;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+.vision .text p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.img img {
+  width: 100%;
+}
+
+/* Our Values Section */
+.values {
+  background: var(--misc);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.values h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 1em;
+  color: var(--secondary);
+}
+
+.values-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 1em;
+}
+
+.values-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 2em 5em; */
+  padding: 0 2em;
+  height: 150px;
+}
+
+.values-card h4 {
+  text-transform: capitalize;
+  color: var(--secondary);
+}
+
+.values-card .img {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us {
+    flex-direction: column-reverse;
+  }
+
+  /* .about-text p {
+    width: 100%;
+  } */
+
+  .vision .text {
+    flex: 100%;
+    margin-top: 2em 0;
+    padding: 0;
+  }
+
+  .vision .img {
+    flex: 100%;
+  }
+
+  .values-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

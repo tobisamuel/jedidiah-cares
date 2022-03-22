@@ -1,0 +1,107 @@
+.spacing-sm > * + * {
+  margin-bottom: 1rem;
+}
+
+/* banner */
+.banner {
+  text-align: center;
+  padding: 6.5em 0;
+  color: var(--misc);
+  background-image: url("../images/banner.jpg");
+  background-color: rgba(25, 255, 5, 0.3);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  background-attachment: fixed;
+  /* opacity: 0.5; */
+  /* background-position: center; */
+  /* height: 85vh; */
+}
+
+@supports (background-blend-mode: multiply) {
+  .banner {
+    background: url("../images/banner.jpg"),
+      radial-gradient(rgb(209, 209, 209), #111);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+  }
+}
+
+.banner p {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+/* welcome Section */
+.welcome {
+  background: var(--secondary);
+  align-items: center;
+}
+
+.welcome-text {
+  color: var(--misc);
+  grid-column: span 4;
+  padding: 2em 0;
+
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-text h2 {
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.welcome-img {
+  grid-column: span 4;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.welcome-img img {
+  width: 300px;
+}
+
+/* Quote Section */
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--misc);
+  min-height: 325px;
+}
+
+.quote h4 {
+  text-align: left;
+  font-weight: 300;
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  /* padding-right: 10em; */
+}
+
+.quote .btn {
+  background: var(--secondary);
+  color: var(--misc);
+  max-height: 50px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-text {
+    grid-column: span 8;
+    margin-bottom: 1em;
+  }
+
+  .welcome-img {
+    grid-column: span 8;
+  }
+}
