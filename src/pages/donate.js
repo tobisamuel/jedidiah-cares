@@ -8,10 +8,23 @@ const Donate = () => {
       <div className="donate-banner">
         <h2>Donate</h2>
       </div>
-      <div className="contact container grid">
-        <div className="contact-text">
-          <h2>Donate</h2>
-          <p>Want to donate to us?</p>
+      <div className="donate container">
+        <div className="donate-text">
+          <h2>Support Our Cause</h2>
+          <p>
+            Jedidiah cares is committed to a society where every woman and child
+            is given the opportunity to realize their full potential of becoming
+            productive and dignified members of society. By donating to Jedidiah
+            cares, we can empower more women to become self-reliant and
+            productive members of society; reduce out-of-school children and
+            position the youth for employability and productivity. Support
+            Jedidiah Cares today and empower a woman, child and youth to become
+            all they are meant to be!
+          </p>
+          <p>
+            To donate, please contact us at +234 123 456 778 or send an email to
+            jedidiahcares@gmail.com
+          </p>
         </div>
       </div>
     </Layout>

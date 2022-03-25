@@ -1,4 +1,4 @@
-.spacing-sm > * + * {
+.spacing-sm>*+* {
   margin-bottom: 1rem;
 }
 
@@ -44,7 +44,6 @@
   color: var(--misc);
   grid-column: span 4;
   padding: 2em 0;
-
   padding-right: 3rem;
   display: flex;
   flex-direction: column;
@@ -54,6 +53,11 @@
 .welcome-text h2 {
   margin-bottom: 1rem;
   line-height: 1;
+}
+
+.welcome-text a {
+  text-align: center;
+  width: 8em;
 }
 
 .welcome-img {
@@ -79,7 +83,7 @@
 
 .quote h4 {
   text-align: left;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--secondary);
   margin-bottom: 1rem;
   /* padding-right: 10em; */
@@ -93,6 +97,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  background: var(--primary);
+  color: var(--secondary);
 }
 
 @media screen and (max-width: 768px) {

@@ -17,6 +17,7 @@ const Programs = () => {
             <img src={Banner} alt="" />
           </div>
           <div className="program-text spacing-s">
+            {/* We offer programs for women, children and youth on entrepreneurship, psychosocial support, value reorientation and employability  */}
             <h3>Skills Acquisition and Life Skills Training for Rural Women</h3>
             <p>
               We organize livelihood training, provide skill development and

@@ -24,7 +24,7 @@ const LandingPage = () => {
         <div className="container grid">
           <div className="welcome-text spacing-sm">
             <h2>What We Do</h2>
-            <p className="leading">
+            <p>
               We seek to provide a happy and safe community where women and
               children can realize their full potential and be major
               contributors to society. We do this by providing psychosocial
@@ -32,8 +32,8 @@ const LandingPage = () => {
               and disadvantaged women; advocating for legislation against all
               forms of gender based violence.
             </p>
-            <Link to="/programs">
-              <a className="btn">Learn More</a>
+            <Link to="/programs" className="btn">
+              Learn More
             </Link>
           </div>
           <div className="welcome-img">
@@ -51,9 +51,9 @@ const LandingPage = () => {
             and deprives itself of the contributions of half of its citizens"
             <br />- Michelle Obama
           </h4>
-          <a href="/donate" className="btn">
+          <Link to="/donate" className="btn">
             Support Us
-          </a>
+          </Link>
         </div>
       </section>
     </React.Fragment>

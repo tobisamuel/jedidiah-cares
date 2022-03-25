@@ -1,7 +1,6 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import "../styles/about.css";
-import logo from "../images/logo.jpg";
 import compassion from "../images/compassion.svg";
 import empowerment from "../images/empowerment.svg";
 import excellence from "../images/excellence.svg";
@@ -12,53 +11,41 @@ import service from "../images/service.svg";
 const AboutPage = () => {
   return (
     <Layout pageTitle="Jedidiah Cares | About">
+      <div className="about-banner">
+        <h2>ABOUT US</h2>
+      </div>
       <section id="about">
-        <div className="about-banner">
-          <h2>ABOUT US</h2>
-        </div>
-
-        <div className="container">
-          {/* <div className="about-us">
-            <div className="about-text">
-              <h2>WHO WE ARE</h2>
-              <p></p>
-            </div>
-          </div> */}
-
-          <div className="vision">
-            <div className="text">
-              <h2>WHO WE ARE</h2>
-              <p>
-                Jedidiah Cares Global Outreach for Women, Youth and Children is
-                a non-profit organization whose purpose is based on the
-                recognition of the needs, aspirations, problems and challenges
-                faced by women and children in Nigeria and the world at large.
-                Jedidiah Cares Global Outreach for Women, Youth and Children in
-                collaboration with other stakeholders seek to provide a happy
-                and safe community where women and children can realize their
-                full potential and be major contributors to society.
-              </p>
-            </div>
+        <div className="container spacing-s">
+          <div className="who text">
+            <h2>WHO WE ARE</h2>
+            <p>
+              Jedidiah Cares Global Outreach for Women, Youth and Children is a
+              non-profit organization whose purpose is based on the recognition
+              of the needs, aspirations, problems and challenges faced by women
+              and children in Nigeria and the world at large. Jedidiah Cares
+              Global Outreach for Women, Youth and Children in collaboration
+              with other stakeholders seek to provide a happy and safe community
+              where women and children can realize their full potential and be
+              major contributors to society.
+            </p>
           </div>
-          <div className="vision">
-            <div className="text">
-              <h2>OUR VISION</h2>
-              <p>
-                A world where every woman, child and youth is safe and given the
-                opportunity to realize their full potential of becoming
-                productive and dignified members of society
-              </p>
-            </div>
+
+          <div className="vision text">
+            <h2>OUR VISION</h2>
+            <p>
+              A world where every woman, child and youth is safe and given the
+              opportunity to realize their full potential of becoming productive
+              and dignified members of society
+            </p>
           </div>
-          <div className="vision">
-            <div className="text">
-              <h2>OUR MISSION</h2>
-              <p>
-                Support women, children and youth by advocating for their rights
-                and provide them with psychosocial support in order for them to
-                live in safety and dignity in our communities.
-              </p>
-            </div>
+
+          <div className="mision text">
+            <h2>OUR MISSION</h2>
+            <p>
+              Support women, children and youth by advocating for their rights
+              and provide them with psychosocial support in order for them to
+              live in safety and dignity in our communities.
+            </p>
           </div>
         </div>
       </section>

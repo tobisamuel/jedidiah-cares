@@ -40,15 +40,15 @@ a {
   margin-left: auto;
 }
 
-.spacing > * + * {
+.spacing>*+* {
   margin-top: 2rem;
 }
 
-.spacing-s > * + * {
-  margin-top: 1rem;
+.spacing-s>*+* {
+  margin-top: 2rem;
 }
 
-.spacing-sm > * + * {
+.spacing-sm>*+* {
   margin-bottom: 1rem;
 }
 

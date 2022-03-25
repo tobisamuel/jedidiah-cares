@@ -1,7 +1,7 @@
 /* Contact */
 
 .contact {
-  /* color: var(--blue); */
+  color: var(--secondary);
   min-height: 86vh;
 }
 
@@ -39,6 +39,7 @@
 
 .contact-item .icon {
   margin-right: 0.5em;
+  font-size: 1.1em;
 }
 
 .contact-social {

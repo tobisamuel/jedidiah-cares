@@ -1,4 +1,7 @@
 /* About Us Section */
+#about {
+  padding: 2em 0;
+}
 
 .about-banner {
   display: flex;
@@ -9,57 +12,25 @@
   min-height: 375px;
 }
 
-.about-us {
-  margin-top: 2.5em;
-  padding-bottom: 20px;
-}
-
-.about-text {
-  /* color: var(--secondary); */
-  font-size: 1.2em;
-  line-height: 1.5;
-}
-
-.about-text h2 {
-  /* padding-bottom: 0.2em; */
-  font-size: 1.5em;
-  font-weight: 400;
-  margin: 1rem 0;
-}
-
-/* .about-text p {
-  width: 80%;
-} */
-
-.about-img {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-}
-
-.about-img img {
-  height: 300px;
-}
-
 .vision {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
-  padding-bottom: 20px;
   align-items: center;
 }
 
-.vision .text {
-  margin-top: 2em;
-  /* padding-left: 2em; */
+.who h2 {
+  margin-top: 0 !important;
+  margin-bottom: 1rem;
 }
 
-.vision .text h2 {
+.text h2 {
   font-size: 1.7em;
   font-weight: 300;
   margin: 1rem 0;
+  color: var(--blue);
 }
 
-.vision .text p {
+.text p {
   font-size: 1.2em;
   font-weight: 300;
 }

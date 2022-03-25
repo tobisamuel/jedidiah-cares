@@ -1,6 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaFacebook, FaPhone, FaTwitter } from "react-icons/fa";
-import { GrLocation } from "react-icons/gr";
+import { TiLocation } from "react-icons/ti";
 import Layout from "../components/layout";
 import "../styles/contact.css";
 
@@ -9,7 +9,7 @@ const Contact = () => {
     <Layout pageTitle="Jedidiah Cares | Contact Us">
       <div className="contact">
         <div className="contact-banner">
-          <h2>Contact Us </h2>
+          <h2>CONTACT US</h2>
         </div>
         <div className="container">
           <div className="contact-main">
@@ -19,8 +19,11 @@ const Contact = () => {
 
             <div className="contact-links">
               <div className="contact-item">
-                <GrLocation className="icon" />
-                <p>123 fnnvnvnvn road, Nigeria</p>
+                <TiLocation className="icon" />
+                <p>
+                  No 2, Ebere Ubesie Street, Indepenent Layout, Enugu State,
+                  Nigeria.
+                </p>
               </div>
 
               <div className="contact-item">
