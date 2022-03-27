@@ -1,6 +1,6 @@
 import React from "react";
 import { FaEnvelope, FaFacebook, FaPhone, FaTwitter } from "react-icons/fa";
-import { TiLocation } from "react-icons/ti";
+import { MdLocationOn } from "react-icons/md";
 import Layout from "../components/layout";
 import "../styles/contact.css";
 
@@ -19,7 +19,7 @@ const Contact = () => {
 
             <div className="contact-links">
               <div className="contact-item">
-                <TiLocation className="icon" />
+                <MdLocationOn className="icon" />
                 <p>
                   No 2, Ebere Ubesie Street, Indepenent Layout, Enugu State,
                   Nigeria.

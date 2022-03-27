@@ -13,9 +13,6 @@ const LandingPage = () => {
             <h2>
               CREATING A SAFER WORLD <br /> FOR WOMEN AND CHILDREN
             </h2>
-            {/* <Link to="/about" className="btn">
-              Learn More
-            </Link> */}
           </div>
         </div>
       </section>
@@ -40,7 +37,7 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="what-we-do1">
+      <section className="what-we-do">
         <div className="container grid">
           <div className="programs-text spacing-sm">
             <h2>What We Do</h2>
@@ -66,9 +63,8 @@ const LandingPage = () => {
         <div className="quote container">
           <h3>
             "No country can ever truly flourish if it stifles the potential of
-            its women
-            <br />
-            and deprives itself of the contributions of half of its citizens"
+            its women and deprives itself of the contributions of half of its
+            citizens"
             <br />- Michelle Obama
           </h3>
           <Link to="/donate" className="btn">
