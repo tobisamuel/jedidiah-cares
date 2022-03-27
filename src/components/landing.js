@@ -8,15 +8,30 @@ const LandingPage = () => {
     <React.Fragment>
       <section className="banner">
         <div className="container spacing">
-          <p>
-            Jedidiah Cares Global Outreach for Women, Youth and Children is a
-            non-profit organization whose purpose is based on the recognition of
-            the needs, aspirations, problems and challenges faced by women and
-            children in Nigeria and the world at large.
-          </p>
+          <p>CATCHY LINE</p>
           <Link to="/about" className="btn">
             Learn More
           </Link>
+        </div>
+      </section>
+
+      <section className="welcome">
+        <div className="container grid">
+          <div className="welcome-text spacing-sm">
+            <h2>Who We Are</h2>
+            <p>
+              Jedidiah Cares Global Outreach for Women, Youth and Children is a
+              non-profit organization whose purpose is based on the recognition
+              of the needs, aspirations, problems and challenges faced by women
+              and children in Nigeria and the world at large.
+            </p>
+            <Link to="/about" className="btn">
+              Learn More
+            </Link>
+          </div>
+          <div className="welcome-img">
+            <img src={logo} alt="" />
+          </div>
         </div>
       </section>
 
