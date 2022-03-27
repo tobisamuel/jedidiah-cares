@@ -22,8 +22,8 @@ const Donate = () => {
             all they are meant to be!
           </p>
           <p>
-            To donate, please contact us at +234 123 456 778 or send an email to
-            jedidiahcares@gmail.com
+            To donate, please contact us at +234 704 000 1344 or send an email
+            to jedidiahcares@gmail.com
           </p>
         </div>
       </div>

@@ -5,33 +5,29 @@
 /* banner */
 .banner {
   text-align: center;
-  padding: 6.5em 0;
+  padding: 7em 0;
   color: var(--misc);
-  background-image: url("../images/banner.jpg");
-  background-color: rgba(25, 255, 5, 0.3);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../images/banner.jpg");
+  background-color: var(--secondary);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
   background-attachment: fixed;
-  /* opacity: 0.5; */
-  /* background-position: center; */
-  /* height: 85vh; */
 }
 
-@supports (background-blend-mode: multiply) {
-  .banner {
-    background: url("../images/banner.jpg"),
-      radial-gradient(rgb(209, 209, 209), #111);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-  }
+.banner-text {
+  display: flex;
+  flex-direction: column;
 }
 
-.banner p {
-  font-size: 1.3em;
-  margin-bottom: 1em;
+.banner-text h2 {
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.banner-text a {
+  width: fit-content;
 }
 
 /* welcome Section */
@@ -57,7 +53,7 @@
 
 .welcome-text a {
   text-align: center;
-  width: 8em;
+  width: fit-content;
 }
 
 .welcome-img {
@@ -72,16 +68,57 @@
   width: 300px;
 }
 
+/* Programs Section */
+.what-we-do {
+  background: #fff;
+  align-items: center;
+}
+
+.programs-text {
+  color: var(--secondary);
+  grid-column: span 4;
+  padding: 2em 0;
+  padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.programs-text h2 {
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.programs-text a {
+  text-align: center;
+  width: fit-content;
+  background-color: var(--secondary);
+  color: var(--misc);
+}
+
+.programs-img {
+  grid-column: span 4;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.programs-img img {
+  width: 100%;
+}
+
 /* Quote Section */
 .quote {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: var(--misc);
   min-height: 325px;
 }
 
-.quote h4 {
+.quote h3 {
   text-align: left;
   font-weight: 400;
   color: var(--secondary);
@@ -90,8 +127,8 @@
 }
 
 .quote .btn {
-  background: var(--secondary);
-  color: var(--misc);
+  background: var(--primary);
+  color: var(--secondary);
   max-height: 50px;
   max-width: 150px;
   display: flex;
@@ -106,12 +143,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  .banner-text {
+    align-items: center;
+  }
+
+  .banner-text h2 {
+    font-size: 1.7em;
+    text-align: center;
+  }
+
   .welcome-text {
     grid-column: span 8;
     margin-bottom: 1em;
+    padding: 2em 0;
   }
 
   .welcome-img {
     grid-column: span 8;
+    display: none;
   }
 }

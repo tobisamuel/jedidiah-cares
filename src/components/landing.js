@@ -1,17 +1,22 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import logo from "../images/logo.jpg";
 import "../styles/landing.css";
+import logo from "../images/logo.jpg";
+import children from "../images/children.jpg";
 
 const LandingPage = () => {
   return (
     <React.Fragment>
       <section className="banner">
-        <div className="container spacing">
-          <p>CATCHY LINE</p>
-          <Link to="/about" className="btn">
-            Learn More
-          </Link>
+        <div className="container">
+          <div className="banner-text spacing">
+            <h2>
+              CREATING A SAFER WORLD <br /> FOR WOMEN AND CHILDREN
+            </h2>
+            {/* <Link to="/about" className="btn">
+              Learn More
+            </Link> */}
+          </div>
         </div>
       </section>
 
@@ -35,9 +40,9 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <section className="welcome">
+      <section className="what-we-do1">
         <div className="container grid">
-          <div className="welcome-text spacing-sm">
+          <div className="programs-text spacing-sm">
             <h2>What We Do</h2>
             <p>
               We seek to provide a happy and safe community where women and
@@ -51,21 +56,21 @@ const LandingPage = () => {
               Learn More
             </Link>
           </div>
-          <div className="welcome-img">
-            <img src={logo} alt="" />
+          <div className="programs-img">
+            <img src={children} alt="" />
           </div>
         </div>
       </section>
 
       <section id="quote">
         <div className="quote container">
-          <h4>
+          <h3>
             "No country can ever truly flourish if it stifles the potential of
             its women
             <br />
             and deprives itself of the contributions of half of its citizens"
             <br />- Michelle Obama
-          </h4>
+          </h3>
           <Link to="/donate" className="btn">
             Support Us
           </Link>

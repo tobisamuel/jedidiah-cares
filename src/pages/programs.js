@@ -1,9 +1,15 @@
 import { Link } from "gatsby";
 import React from "react";
+import "../styles/programs.css";
 import { FaArrowRight } from "react-icons/fa";
 import Layout from "../components/layout";
 import Banner from "../images/banner.jpg";
-import "../styles/programs.css";
+import rural from "../images/rural.jpg";
+import shelter from "../images/shelter.jpg";
+import advocacy from "../images/advocacy.jpg";
+import school from "../images/school.jpg";
+import skills from "../images/skills.jpg";
+import research from "../images/research.jpg";
 
 const Programs = () => {
   return (
@@ -14,7 +20,7 @@ const Programs = () => {
       <div className="programs container">
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={rural} alt="" />
           </div>
           <div className="program-text spacing-s">
             {/* We offer programs for women, children and youth on entrepreneurship, psychosocial support, value reorientation and employability  */}
@@ -33,7 +39,7 @@ const Programs = () => {
 
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={shelter} alt="" />
           </div>
           <div className="program-text spacing-s">
             <h3>Shelter for Abused Women and Children</h3>
@@ -56,7 +62,7 @@ const Programs = () => {
 
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={advocacy} alt="" />
           </div>
           <div className="program-text spacing-s">
             <h3>Policy Advocacy</h3>
@@ -77,7 +83,7 @@ const Programs = () => {
 
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={school} alt="" />
           </div>
           <div className="program-text spacing-s">
             <h3>Right from Wrong Club</h3>
@@ -97,7 +103,7 @@ const Programs = () => {
 
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={skills} alt="" />
           </div>
           <div className="program-text spacing-s">
             <h3>Life-Skills and Employability</h3>
@@ -124,7 +130,7 @@ const Programs = () => {
 
         <div className="program grid">
           <div className="program-img">
-            <img src={Banner} alt="" />
+            <img src={research} alt="" />
           </div>
           <div className="program-text spacing-s">
             <h3>Research</h3>
