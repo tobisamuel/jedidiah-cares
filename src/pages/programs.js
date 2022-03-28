@@ -1,9 +1,6 @@
-import { Link } from "gatsby";
 import React from "react";
 import "../styles/programs.css";
-import { FaArrowRight } from "react-icons/fa";
 import Layout from "../components/layout";
-import Banner from "../images/banner.jpg";
 import rural from "../images/rural.jpg";
 import shelter from "../images/shelter.jpg";
 import advocacy from "../images/advocacy.jpg";
@@ -18,22 +15,25 @@ const Programs = () => {
         <h2>OUR PROGRAMS</h2>
       </div>
       <div className="programs container">
+        {/* <h5>
+          We offer programs for women, children and youth on entrepreneurship,
+          psychosocial support, value reorientation and employability.
+        </h5> */}
         <div className="program grid">
           <div className="program-img">
             <img src={rural} alt="" />
           </div>
           <div className="program-text spacing-s">
-            {/* We offer programs for women, children and youth on entrepreneurship, psychosocial support, value reorientation and employability  */}
             <h3>Skills Acquisition and Life Skills Training for Rural Women</h3>
             <p>
               We organize livelihood training, provide skill development and
               seed capital for rural and disadvantaged Women to help them
               undertake enterprising activites
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -53,10 +53,10 @@ const Programs = () => {
               children for extreme situations while offering practical and
               peaceful solutions to victims.
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -74,10 +74,10 @@ const Programs = () => {
               and participating in topical discussions, conferences and
               workshops on Women's and Children's rights.
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -94,10 +94,10 @@ const Programs = () => {
               ages of 6 and 16 will be taught values and virtues such as
               Responsibility, Honesty, Empathy, Compassion etc.
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -121,10 +121,10 @@ const Programs = () => {
               relevant certifications in various fields to enhance their
               employability.
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -140,10 +140,10 @@ const Programs = () => {
               equality and youth leadership and employability. This research
               serves as the basis for its innovative curriculum and programs.
             </p>
-            <Link to="/" className="program-btn">
+            {/* <Link to="/" className="program-btn">
               <p>Learn More</p>
               <FaArrowRight className="icon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

@@ -18,8 +18,8 @@ const Donate = () => {
             cares, we can empower more women to become self-reliant and
             productive members of society; reduce out-of-school children and
             position the youth for employability and productivity. Support
-            Jedidiah Cares today and empower a woman, child and youth to become
-            all they are meant to be!
+            Jedidiah Cares today and empower a woman, youth and child and to
+            become all they are meant to be!
           </p>
           <p>
             To donate, please contact us at +234 704 000 1344 or send an email

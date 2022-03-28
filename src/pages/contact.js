@@ -19,20 +19,32 @@ const Contact = () => {
 
             <div className="contact-links">
               <div className="contact-item">
-                <MdLocationOn className="icon" />
+                <span>
+                  <MdLocationOn className="icon" />
+                </span>
+
                 <p>
-                  No 2, Ebere Ubesie Street, Indepenent Layout, Enugu State,
+                  No 2, Ebere Ubesie Street, Indepenence Layout, Enugu State,
                   Nigeria.
                 </p>
               </div>
 
               <div className="contact-item">
-                <FaPhone className="icon" />
-                <p>+234 704 000 1344</p>
+                <span>
+                  <FaPhone className="icon" />
+                </span>
+
+                <p>
+                  +234 817 961 8871 <br />
+                  +234 704 000 1344
+                </p>
               </div>
 
               <div className="contact-item">
-                <FaEnvelope className="icon" />
+                <span>
+                  <FaEnvelope className="icon" />
+                </span>
+
                 <p>jedidahcares@gmail.com</p>
               </div>
             </div>
@@ -42,7 +54,7 @@ const Contact = () => {
             <a href="https://www.facebook.com/jedidiahcares/">
               <FaFacebook />
             </a>
-            <a href="">
+            <a href="/">
               <FaTwitter />
             </a>
           </div>

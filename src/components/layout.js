@@ -90,7 +90,7 @@ const Layout = ({ pageTitle, children }) => {
               <a href="https://www.facebook.com/jedidiahcares/">
                 <FaFacebook className="footer-links" />
               </a>
-              <a to="https://twitter.com">
+              <a href="https://twitter.com">
                 <FaTwitter className="footer-links" />
               </a>
             </div>
